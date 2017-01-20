@@ -1,0 +1,36 @@
+
+html {
+  /* Used for sticky footer */
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color:#939393; /* Inserted a background color*/
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #494949; /* Changed the background color*/
+  padding-top: 10px;
+}
+
+#results{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10%;
+  background-color: #dcdcdc;  /* Changed the background color*/
+  /* Hide the results column by default */
+  display: none;
+}
+
+
+
